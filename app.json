@@ -17,32 +17,32 @@
         "BOT_NAME": {
             "description": "هنا هتحط اسم بوت الاغاني",
             "required": false,
-            "value": "دندشه"
+            "value": "سورس دمار"
         },
         "BOT_USERNAME": {
             "description": "يوزر نيــم البوت بتاعك منغير علامه -> @",
             "required": true,
-            "value": "dndusha_bot"
+            "value": "xO_mab_Ox"
         },
         "ASSISTANT_NAME": {
             "description": "يوزر نيــم بوتك تاني منغير ->  @",
             "required": true,
-            "value": "dndusha_bot"
+            "value": "mabxfrexas_bot"
         },
         "BG_IMAGE": {
             "description": "هنا هتحط صوره الخلفيه ان وجدت",
             "required": false,
-            "value": "https://telegra.ph/file/19d68d531fd2f6f96e368.jpg"
+            "value": "https://t.me/mab_x2/144011"
         },
         "THUMB_IMG": {
             "description": "سيبــها زي مهي عادي يبا -> bg_image",
             "required": false,
-            "value": "https://telegra.ph/file/19d68d531fd2f6f96e368.jpg"
+            "value": "https://t.me/mab_x2/144011"
         },
         "OWNER_NAME": {
             "description": "حط اليوز بتاعك منغير علامه @",
             "required": false,
-            "value": "alazizy"
+            "value": "xO_mab_Ox"
         },
         "API_ID": {
             "description": "حــط App ID from my.telegram.org/apps",
