@@ -187,7 +187,7 @@ async def settings(client, message):
         else:
             await message.reply(stats, reply_markup=r_ply("play"))
     else:
-        await message.reply("**يرجــى تشغــيل المكالــمة الصوتيــة أولاً.**")
+        await message.reply("**يمـعـلـم انـت قـفـل الـكـول عـايزني اشـغل الاغنيه ازاي وربنا ماب عملني يبهدلني معاك**")
 
 
 @Client.on_message(
@@ -511,7 +511,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("عرض القائمه..💘", callback_data="menu"),
                     InlineKeyboardButton("اخفاء القائمه..🙂", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("💞قناه السورس💞", url=f"https://t.me/BANDA1M")
+                    InlineKeyboardButton("𝗗𝗔𝗠𝗔𝗥", url=f"https://t.me/TEM_DAMAR1")
                 ],
             ]
         )
@@ -558,7 +558,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("عرض القائمه..💘", callback_data="menu"),
                     InlineKeyboardButton("اخفاء القائمه..🙂", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("💞قناه السورس💞", url=f"https://t.me/BANDA1M")
+                    InlineKeyboardButton("𝗗𝗔𝗠𝗔𝗥", url=f"https://t.me/TEM_DAMAR1")
                 ],
             ]
         )
@@ -639,7 +639,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("عرض القائمه..💘", callback_data="menu"),
                     InlineKeyboardButton("اخفاء القائمه..🙂", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("💞قناه السورس💞", url=f"https://t.me/BANDA1M")
+                    InlineKeyboardButton("𝗗𝗔𝗠𝗔𝗥", url=f"https://t.me/TEM_DAMAR1")
                 ],
             ]
             )
@@ -738,7 +738,7 @@ async def lol_cb(b, cb):
                     InlineKeyboardButton("عرض القائمه..💘", callback_data="menu"),
                     InlineKeyboardButton("اخفاء القائمه..🙂", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("💞قناه السورس💞", url=f"https://t.me/BANDA1M")
+                    InlineKeyboardButton("𝗗𝗔𝗠𝗔𝗥", url=f"https://t.me/TEM_DAMAR1")
                 ],
             ]
     )
