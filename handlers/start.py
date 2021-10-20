@@ -45,16 +45,16 @@ async def start_(client: Client, message: Message):
             [ 
                 [
                     InlineKeyboardButton(
-                        "اضف البوت لمجموعتك", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "𖤍 اضافه البوت لمجموعتك 𖤍", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
                         "جروب الدعم", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "قناه السورس", url=f"https://t.me/{UPDATES_CHANNEL}")               
+                        "قناه البوت", url=f"https://t.me/{UPDATES_CHANNEL}")               
                  ],[
                     InlineKeyboardButton(
-                        "𝗗𝗔𝗠𝗔𝗥", url="https://t.me/TEM_DAMAR1"
+                        "✯sᴏᴜʀᴄᴇ ᴍᴀᴛʀɪx✯", url="https://t.me/G8_01"
                     )
                 ]
             ]
@@ -191,7 +191,7 @@ async def help_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "𝗗𝗔𝗠𝗔𝗥", url=f"https://t.me/TEM_DAMAR1/6"
+                        "✯sᴏᴜʀᴄᴇ ᴍᴀᴛʀɪx✯", url=f"https://t.me/G8_01"
                     )
                 ]
             ]

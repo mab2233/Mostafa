@@ -165,7 +165,7 @@ def r_ply(type_):
                 InlineKeyboardButton("معلومات الاغنيه", "playlist"),
             ],
             [       
-                InlineKeyboardButton("اخفاء القائمه..🙂", "cls")
+                InlineKeyboardButton("اخفاء القائمه🌚🧞", "cls")
             ]        
         ]
     )
@@ -187,7 +187,7 @@ async def settings(client, message):
         else:
             await message.reply(stats, reply_markup=r_ply("play"))
     else:
-        await message.reply("**يمـعـلـم انـت قـفـل الـكـول عـايزني اشـغل الاغنيه ازاي وربنا ماب عملني يبهدلني معاك**")
+        await message.reply("**يرجــى تشغــيل المكالــمة الصوتيــة أولاً.**")
 
 
 @Client.on_message(
@@ -376,7 +376,7 @@ async def m_cb(b, cb):
                 
                 ],
                 [       
-                    InlineKeyboardButton("اخفاء القائمه..🙂", "cls")
+                    InlineKeyboardButton("اخفاء القائمه🌚🧞", "cls")
                 ]        
             ]
         )
@@ -508,10 +508,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("عرض القائمه..💘", callback_data="menu"),
-                    InlineKeyboardButton("اخفاء القائمه..🙂", callback_data="cls"),
+                    InlineKeyboardButton("عرض القائمه..🧞", callback_data="menu"),
+                    InlineKeyboardButton("اخفاء القائمه🌚🧞", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("𝗗𝗔𝗠𝗔𝗥", url=f"https://t.me/TEM_DAMAR1")
+                    InlineKeyboardButton("✯sᴏᴜʀᴄᴇ ᴍᴀᴛʀɪx✯", url=f"https://t.me/G8_01")
                 ],
             ]
         )
@@ -546,7 +546,7 @@ async def play(_, message: Message):
             views = results[0]["views"]
         except Exception as e:
             await lel.edit(
-                "**❌ لم يتـم العثــور على الإغنيــة.** يرجــى إرسال الإســم صحيــح."
+                "✗لم يـتم العثــور علــي الاغــنيه المطلـوبـه✗"
             )
             print(str(e))
             return
@@ -555,10 +555,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("عرض القائمه..💘", callback_data="menu"),
-                    InlineKeyboardButton("اخفاء القائمه..🙂", callback_data="cls"),
+                    InlineKeyboardButton("عرض القائمه..🧞", callback_data="menu"),
+                    InlineKeyboardButton("اخفاء القائمه🌚🧞", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("𝗗𝗔𝗠𝗔𝗥", url=f"https://t.me/TEM_DAMAR1")
+                    InlineKeyboardButton("✯sᴏᴜʀᴄᴇ ᴍᴀᴛʀɪx✯", url=f"https://t.me/G8_01")
                 ],
             ]
         )
@@ -590,15 +590,15 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("انقر لتشغيل الاغنيه الاولي..🙂💔", callback_data=f'plll 0|{query}|{user_id}'),
+                        InlineKeyboardButton("انقر لتشغيل الاغنيه الاولي🌚🧞", callback_data=f'plll 0|{query}|{user_id}'),
                     ],
                     [
-                        InlineKeyboardButton("انقر لتشغيل الاغنيه الثانيه..🙂💔", callback_data=f'plll 2|{query}|{user_id}'),
+                        InlineKeyboardButton("انقر لتشغيل الاغنيه الثانيه🌚🧞", callback_data=f'plll 2|{query}|{user_id}'),
                     ],
                     [
-                        InlineKeyboardButton("انقر لتشغيل الاغنيه الثالثه..🙂💔", callback_data=f'plll 3|{query}|{user_id}'),
+                        InlineKeyboardButton("انقر لتشغيل الاغنيه الثالثه🌚🧞", callback_data=f'plll 3|{query}|{user_id}'),
                     ],
-                    [InlineKeyboardButton(text="💞اخفاء القائمه💞", callback_data="cls")],
+                    [InlineKeyboardButton(text="🧞اخفاء القائمه🧞", callback_data="cls")],
                 ]
             )
             await message.reply_photo(
@@ -627,7 +627,7 @@ async def play(_, message: Message):
                 views = results[0]["views"]
             except Exception as e:
                 await lel.edit(
-                "**❌ لم يتـم العثــور على الإغنيــة.** يرجــى إرسال الإســم صحيــح."
+                "✗لم يـتم العثــور علــي الاغــنيه المطلـوبـه✗"
             )
                 print(str(e))
                 return
@@ -636,10 +636,10 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("عرض القائمه..💘", callback_data="menu"),
-                    InlineKeyboardButton("اخفاء القائمه..🙂", callback_data="cls"),
+                    InlineKeyboardButton("عرض القائمه..🧞", callback_data="menu"),
+                    InlineKeyboardButton("اخفاء القائمه🌚🧞", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("𝗗𝗔𝗠𝗔𝗥", url=f"https://t.me/TEM_DAMAR1")
+                    InlineKeyboardButton("✯sᴏᴜʀᴄᴇ ᴍᴀᴛʀɪx✯", url=f"https://t.me/G8_01")
                 ],
             ]
             )
@@ -694,7 +694,7 @@ async def lol_cb(b, cb):
     try:
         x,query,useer_id = typed_.split("|")      
     except:
-        await cb.message.edit("❌ لم يتـم العثــور على الإغنيــة")
+        await cb.message.edit("✗لم يـتم العثــور علــي الاغــنيه المطلـوبـه✗")
         return
     useer_id = int(useer_id)
     if cb.from_user.id != useer_id:
@@ -735,10 +735,10 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("عرض القائمه..💘", callback_data="menu"),
-                    InlineKeyboardButton("اخفاء القائمه..🙂", callback_data="cls"),
+                    InlineKeyboardButton("عرض القائمه..🧞", callback_data="menu"),
+                    InlineKeyboardButton("اخفاء القائمه🌚🧞", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("𝗗𝗔𝗠𝗔𝗥", url=f"https://t.me/TEM_DAMAR1")
+                    InlineKeyboardButton("✯sᴏᴜʀᴄᴇ ᴍᴀᴛʀɪx✯", url=f"https://t.me/G8_01")
                 ],
             ]
     )
